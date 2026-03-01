@@ -107,6 +107,8 @@ identity/compiled/persona.custom.md
 skills/*
 !skills/.gitkeep
 !skills/system/
+!skills/mcp-installer/
+!skills/mcp-builder/
 
 # Plugins (keep structure)
 plugins/*
@@ -207,3 +209,6 @@ scripts/update_version.py
 
 # Tauri signing keys (NEVER commit private keys)
 .tauri/
+
+# Cloudflare CDN credentials doc (contains secrets)
+docs/cloudflare-cdn-plan.md
